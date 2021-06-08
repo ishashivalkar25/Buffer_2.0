@@ -15,6 +15,7 @@ public class Cake
 		this.cake_shape=cake_shape;
 		this.cake_price=cake_price;
 		this.cake_weight=cake_weight;
+		prev=null;
 		next=null;
 	}
 	public String getCake_type() {
